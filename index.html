@@ -354,6 +354,19 @@
           xuma-cli getaccountaddress ""<br>
           <br>
 
+          <b>Upgrading xumad to a newer version:</b><br>
+          cd ~/source/xuma-core/<br>
+          git reset --hard<br>
+          git fetch<br>
+          git checkout 1.0.5<br>
+          make all<br>
+          xuma-cli stop<br>
+          make install<br>
+          xumad<br>
+          xuma-cli getinfo<br>
+          xuma-cli getbalance<br>
+          <br>
+
           <b>A sample masternode xuma.conf file:</b><br>
           masternode=1<br>
           masternodeprivkey=&lt;xuma-cli masternode genkey&gt;<br>
