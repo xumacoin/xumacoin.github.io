@@ -201,7 +201,7 @@ h2 {
 }
 
 #community-links {
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 
 a {
