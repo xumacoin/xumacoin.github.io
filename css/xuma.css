@@ -447,3 +447,7 @@ header.masthead p {
   border: none;
 
 }
+
+/* MYCE Widget */
+.myce-widget-content { border: 2px solid #f7f7f9!important; }
+.bg-myce { background-color: #1f0048; }
