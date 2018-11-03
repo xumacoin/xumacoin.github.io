@@ -1,4 +1,17 @@
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 body,
 html {
   font-weight: 300;
@@ -414,6 +427,10 @@ header.masthead p {
 .btn-primary {
   background-color: #d59b1e;
   border-color: #d59b1e;
+}
+
+.btn-radius-top {
+  border-radius: 10px 10px 0 0;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
